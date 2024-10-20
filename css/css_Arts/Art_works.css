@@ -115,8 +115,9 @@
 
 @media (max-width:1500px){
 .popup-img img{
-	width: 75%;
-	max-width: 600px;
+	max-width: 70%;
+    max-height: 70%;
+    height: auto;
 	transition-timing-function: ease-in-out;
 	transition-duration: 0.3s;
 }
