@@ -59,7 +59,18 @@ hr.saperate-line {
 .Art-info-text {
     text-align: center;
 }
+}
 
+@media (max-width:800px){
+	.iframe	{
+		width: 390px;
+		height: 325px;
+	}
+}
 
-
+@media (max-width:400px){
+	.iframe	{
+		width: 350px;
+		height: 230px;
+	}
 }
