@@ -1,0 +1,160 @@
+@charset "utf-8";
+.container-margin {
+    height: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.body-bg  {
+    background-image: url(url);
+    background-color: #1D1D1D;
+}
+.logos {
+    margin-left: 10px;
+}
+.logo_contain {
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.text-size {
+    font-size: x-large;
+}
+.text-size02 {
+    font-size: large;
+}
+.card-gap {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.art_works{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #E4E4E4;
+	
+}
+.Art-info-text {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: justify;
+}
+hr.saperate-line {
+  border-top: 3px solid;
+	color:rgba(228,228,228,0.5)
+}
+.Art-line {
+    padding-top: 20px;
+}
+.none-line{
+	display:none;
+}
+
+/*novel CSS*/
+
+.title-color{
+	color:#E4E4E4;
+	margin-top: 15px;
+}
+
+.title-adjust{
+	margin-top: 50px;
+}
+
+.novels-adjust{
+	height: 100%;
+}
+
+/*novel CSS*/
+
+/*folder*/
+
+.sticky-folder {
+            position: sticky;
+            top: 120px;
+            z-index: 5;
+	margin-top: 50px;
+        }
+        .folder {
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: auto;
+    width: 170px;
+    margin-right: auto;
+        }
+        .folder-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #E4E4E4;
+    border-radius: 7px;
+    text-align: center;
+			transition: 0.3s;
+        }
+
+.folder-title:hover{
+	background: #E4E4E4;
+	color: #000000;
+	transition: 0.3s;
+}
+
+.folder-text{
+    color: #E4E4E4;
+    margin-bottom: -23px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+        .collapse {
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+        }
+        .collapse a {
+    color: #E4E4E4;
+    display: block;
+    padding-top: 5px;
+    padding-right: 0;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 70%;
+    transition: 0.3s;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+        }
+        .collapse a:hover {
+			background: #E4E4E4E4;
+			color:#000;
+			border-radius: 7px;
+			transition: 0.3s;
+            
+        }
+
+.blanknothing{
+	height: 30px;
+}
+
+/*folder*/
+
+/*title btn*/
+.NBL{
+	color:#E4E4E4;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.NBL:hover{
+	color:#ACACAC;
+	transition: 0.3s;
+}
+
+@media (max-width:1199px){
+.Art-info-text {
+    text-align: center;
+}
+
+}

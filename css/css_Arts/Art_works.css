@@ -1,0 +1,160 @@
+@charset "utf-8";
+.body-bg  {
+    background-image: url(url);
+    background-color: #1D1D1D;
+}
+.container-adjust {
+    box-sizing: border-box;
+    margin-top: 30px;
+    height: 100%;
+	
+}
+.filter {
+    color: #E4E4E4;
+	display: flex;
+	justify-content: center;
+}
+.all-btn {
+	display: flex;
+	max-width: 470px;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.row-gallery {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.gallery{
+	-ms-flex: 25%;
+  flex: 25%;
+  padding: 0 4px;
+  transition: 0.5s;
+	display: none;
+}
+
+.image{
+    overflow: hidden;
+	margin-top: 8px
+}
+
+.gallery  img{
+    vertical-align: middle;
+    overflow: hidden;
+	width: 100%;
+    transition: 0.5s;
+}
+
+.gallery img:hover{
+  vertical-align: middle;
+  width: 100%;
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.show {
+  display: block;
+}
+
+.mean{
+}
+
+.marginjack{
+    margin-top: -30px;
+}
+
+.margingold{
+	margin-top: -30px;
+}
+
+.marginallen{
+	margin-top: -30px;
+}
+
+
+/*modal image*/
+.popup-img{
+	position: fixed;
+	top:0; left:0;
+	background:rgba(0,0,0,0.9);
+	height: 100%;
+	width: 100%;
+	z-index:100;
+	display: none;
+}
+
+.popup-img span{
+	position:absolute;
+	top: 0; right:10px;
+	font-size: 60px;
+	font-weight: bolder;
+	color:#fff;
+	cursor: pointer;
+	z-index:100;
+}
+
+.popup-img img{
+	position: absolute;
+	top:50%; left: 50%;
+	transform: translate(-50%, -50%);
+	 max-width: 70%;
+    max-height: 70%;
+    height: auto;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.3s;
+}
+
+/*modal image*/
+
+@media (max-width:1500px){
+.popup-img img{
+	width: 75%;
+	max-width: 600px;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.3s;
+}
+}
+
+
+@media (max-width:1199px){
+
+.gallery{
+-ms-flex: 50%;
+  flex: 50%;
+  padding: 0 4px;
+}
+    
+
+@media (max-width: 1000px){
+	.gallery{
+-ms-flex: 100%;
+  flex: 100%;
+  padding: 0 4px;
+	
+}
+}
+
+@media (max-width:450px){
+	
+	.all-btn{
+		flex-wrap: wrap;
+	
+		justify-content: center;
+	}
+	.all-btn .btn01{
+		margin: 5px;
+	}
+	.popup-img img{
+	width: 95%;
+	max-width: auto;
+	z-index:100;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.3s;
+}

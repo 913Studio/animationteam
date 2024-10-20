@@ -1,0 +1,41 @@
+@charset "utf-8";
+.container-margin {
+    margin-top: 50px;
+    height: 100%;
+    margin-bottom: 50px;
+
+
+}
+
+.body-bg  {
+    background-image: url(url);
+    background-color: #1D1D1D;
+}
+.logos {
+    margin-left: 10px;
+}
+.logo_contain {
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+#title {
+    text-align: center;
+    color: #E4E4E4;
+    margin-bottom: 10px;
+}
+
+.text-size {
+    font-size: x-large;
+}
+.text-size02 {
+    font-size: large;
+}
+.card-gap {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width:1199px){
+}
